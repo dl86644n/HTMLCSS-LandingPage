@@ -69,3 +69,62 @@ section {
     font-size: 16px;
     color: #364147;
 }
+.header-nav {
+    border-bottom: 1px #a0a0a0;
+}
+.brand {
+    height: 175px;
+    width: 85px;
+    margin-left: -15px;
+    margin-right: 60px;
+}
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+.search-box {
+    height: 330px;
+    width: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border: 1px #a0a0a0;
+}
+.search-button {
+    background-color: #a0a0a0;
+    color: white;
+    height: 100px;
+    width: 30px;
+    border: 0;
+    padding: 0;
+}
+.nav-list {
+    padding-left: 0;
+    width: 575px;
+    margin-top: 10px;
+}
+.nav-list li a {
+    font: 16px uppercase ;
+    weight: 700;
+    letter-spacing: 0.2px;
+}
+.profile {
+    margin-left: auto;
+}
+.account{
+    text-align: right;
+    padding: 15px;
+    font: #364147 18px;
+}
+.account li {
+    font: 14px;
+}
+.profile-pic {
+    width: 60;
+    height: 60;
+}
+.profile-pic img {
+    border-radius: 100px;
+    max-width: 100%;
+}
