@@ -131,27 +131,26 @@ section {
     background-image: url(../img/hero.jpg);
     height: 400px;
     background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+    background-position: center center;
     text-transform: uppercase;
 }
-h1 .hero div {
+.hero h1 {
     position: relative;
-    margin-left: -30px;
+    left: -30px;
 }
-h2 .hero div {
+.hero h2 {
     color: #faa541;
 }
-h1 h2 .hero div {
-    font-size: 63 px;
+.hero h1, .hero h2 {
+    font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
 }
-p .hero div{
+.hero p {
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 21px;
-    margin: 0px 0px 10px;
+    margin: 0 0 10px;
 }
 .banner {
     margin: 55px 15px;
@@ -160,7 +159,7 @@ p .hero div{
     border-bottom: 1px solid #a0a0a0;
     padding: 25px 0;
 }
-img .banner {
+.banner img {
     width: 250px;
 }
 .banner-text {
@@ -170,7 +169,7 @@ img .banner {
     line-height: 1;
     text-align: center;
 }
-div > .banner-text :last-child {
+.banner-text > div:last-child {
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
@@ -179,7 +178,7 @@ div > .banner-text :last-child {
     flex: 0 0 25%;
     padding: 0 15px;
 }
-.category > img {
+.category img {
     width: 100%;
 }
 .category-text {
@@ -193,7 +192,7 @@ div > .banner-text :last-child {
     font-weight: 200;
     color: #faa541;
 }
-.category-text > h3 {
+.category-text h3 {
     font-size: 30px;
     font-weight: 700;
     line-height: 1;
