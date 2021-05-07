@@ -256,14 +256,14 @@ div > .banner-text :last-child {
     letter-spacing: 1px;
     z-index: 1;
 }
-.footer {
+footer .container {
     flex-wrap: wrap;
     position: relative;
     z-index: 0;
     min-height: 330px;
     background-color: black;
 }
-.footer:after {
+footer:after {
     content: "";
     background-color: #a0a0a0;
     width: 75%;
@@ -276,8 +276,8 @@ div > .banner-text :last-child {
 }
 .lists {
     flex: 0 0 75%;
-    left: 15px;
-    right: 15px;
+    left: 25px;
+    right: 5px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -287,13 +287,13 @@ div > .banner-text :last-child {
     font-weight: 700;
     margin-bottom: 15px;
 }
-.footer a {
+footer a {
     color: white;
     text-transform: uppercase;
     font-size: 12px;
     padding: 0 0 4px;
 }
-.footer a:hover {
+footer a:hover {
     text-decoration: underline;
 }
 .social ul li {
@@ -332,7 +332,7 @@ div > .banner-text :last-child {
 .newsletter input {
     border: 1px solid #364147;
     width: 200px;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 .newsletter button {
     width: 150px;
@@ -344,6 +344,8 @@ div > .banner-text :last-child {
     flex: 0 0 25%;
     padding: 40px 0;
     color:  #e5e5e5;
+}
+.ps img {
     font-size: 16px;
     max-width: 230px;
 }
@@ -352,11 +354,11 @@ div > .banner-text :last-child {
 }
 .demo:before {
     content: "";
-display: block;
-width: 100%;
-height:  1px;
-margin: 30px 0;
-background:linear-gradient(right,#f05a28 0,#e80a89 100%)
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 30px 0;
+    background:linear-gradient(to right,#f05a28 0,#e80a89 100%);
 }
 .copyright {
     flex: 0 0 75%;
